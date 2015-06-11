@@ -6,8 +6,8 @@
     <!-- 
         Comment:
         1.  plan to use jetty as jndi, but seems not allow remotely access datasource by jndi from outside container
-        2.  but jetty does not support remote jndi 
-        3.  actual:
+        2.  jetty does not support remote jndi 
+        3.  plan:
                 a) in one jvm: one jetty instance with datasource by jetty-maven-plugin
                 b) in one jvm: junit for datasource 
         
